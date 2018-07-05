@@ -5,7 +5,6 @@
   "dependencies": {
     "hapi": "^17.5.2",
     "inert": "^5.1.0",
-    "nodemon": "^1.17.5",
-    "vue": "^2.5.16"
+    "nodemon": "^1.17.5"
   }
 }
