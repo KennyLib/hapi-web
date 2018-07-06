@@ -22,9 +22,9 @@ module.exports = () => {
             const browser = await puppeteer.launch();
             const page = await browser.newPage();
             await page.goto('http://lvyou.jiangtai.com');
-            await page.waitFor(1000);
+            await page.waitFor(10);
             await page.click('#nav_product > a');
-            await page.waitFor(1000);
+            await page.waitFor(10);
 
             let resArr = await page.evaluate(() => {
                 let arr = [];
